@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Fractals</title>
+</head>
+<body>
+    <div id="dice">
+        <p>Dice:</p>
+        <p id="roll">-</p>
+        <div id="step">Step</div>
+        <div id="manual">Manual</div>
+        <div id="stop">Stop</div>
+        <input id="spinner" type="number" min="3" max="6" step="1" value="3" size="5">
+    </div>
+    <canvas id="canvas" width="600", height="600"></canvas>
+    <script src="fractals.js"></script>    
+</body>
+</html>

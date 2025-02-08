@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+}
+#canvas {
+    border: solid medium rgb(46, 46, 75);
+    float: center;
+}
+#dice {
+    border: solid medium rgb(46, 46, 75);
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#dice p {
+    text-align: center;
+}
+#dice #step, #dice #manual, #dice #stop {
+    border: solid thick gray;
+    margin-bottom: 3px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#dice #step:hover, #dice #manual:hover, #dice #stop:hover {
+    background-color: lightblue;
+}
+
+#spinner {
+    border-width: 2px;
+}
